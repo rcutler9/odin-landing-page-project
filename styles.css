@@ -1,0 +1,26 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding: 0px 150px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
